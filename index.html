@@ -5,13 +5,14 @@
     <meta charset="utf-8">
     <link rel="icon" href="img/favicon.ico" class="js-favicon">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+ <!--    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/assets/css/font-awesome.css">
     <link rel="stylesheet" href="node_modules/intro.js/minified/introjs.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+    <link rel="stylesheet" type="text/css" href="bundle/bundle.min.css">
 </head>
 <body ng-controller="mainController" id="body">
 
@@ -50,9 +51,13 @@
 
 
 <script type="text/javascript" src="./env.js"></script>
-<script type="text/javascript" src="js/vendor.bundle.js"></script>
-<script type="text/javascript" src="js/app.bundle.js"></script>
+<!-- <script type="text/javascript" src="js/vendor.bundle.js"></script>
+<script type="text/javascript" src="js/app.bundle.js"></script> -->
 <script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+<script type="text/javascript" src="bundle/vendor.bundle.js"></script>
+<script type="text/javascript" src="bundle/app.bundle.js"></script>
+
 <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-auth.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-database.js"></script>
