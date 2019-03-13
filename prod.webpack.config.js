@@ -13,7 +13,7 @@ module.exports = {
         'bundle.min.css': [
             path.resolve(__dirname, './css/style.css'),
             path.resolve(__dirname, 'node_modules/bootstrap/dist/css/bootstrap.min.css'),
-            path.resolve(__dirname, 'node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css'),
+            // path.resolve(__dirname, 'node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css'),
             // path.resolve(__dirname, 'node_modules/@fortawesome/fontawesome-free/css/all.css'),
             // path.resolve(__dirname, 'node_modules/bootstrap-social/bootstrap-social.css'),
             // path.resolve(__dirname, 'node_modules/bootstrap-social/assets/css/font-awesome.css'),
